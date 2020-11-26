@@ -18,9 +18,9 @@
 		3B25ED0F256CEE52002029D4 /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B25ED0E256CEE52002029D4 /* BoundingBox.swift */; };
 		3B25ED12256CEF6A002029D4 /* TinyYOLO.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3B25ED11256CEF6A002029D4 /* TinyYOLO.mlmodel */; };
 		3B25ED18256F8557002029D4 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B25ED17256F8556002029D4 /* Helpers.swift */; };
+		3B25ED1C256F8C47002029D4 /* bg_model_alpha.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3B25ED1B256F8C47002029D4 /* bg_model_alpha.mlmodel */; };
+		3B25ED20256F8CB4002029D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B25ED1F256F8CB4002029D4 /* AppDelegate.swift */; };
 		3BA4CD962560D9DE0048616B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA4CD942560D9DE0048616B /* Main.storyboard */; };
-		3BA4CD9F2560DA0B0048616B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA4CD9E2560DA0B0048616B /* AppDelegate.swift */; };
-		3BA4CDA22560DA4F0048616B /* bg_model_alpha.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3BA4CDA12560DA4F0048616B /* bg_model_alpha.mlmodel */; };
 		3BA4CDBB2560F42A0048616B /* PoseDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA4CDBA2560F42A0048616B /* PoseDatabase.swift */; };
 		3BA4CDC6256115C40048616B /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA4CDBF256113CD0048616B /* CameraViewController.swift */; };
 		E422DFC21CEF894F0047D7A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E422DFC11CEF894F0047D7A4 /* Assets.xcassets */; };
@@ -46,9 +46,9 @@
 		3B25ED0E256CEE52002029D4 /* BoundingBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BoundingBox.swift; path = "../../YOLO-CoreML-MPSNNGraph-master/Common/BoundingBox.swift"; sourceTree = "<group>"; };
 		3B25ED11256CEF6A002029D4 /* TinyYOLO.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = TinyYOLO.mlmodel; path = "../../YOLO-CoreML-MPSNNGraph-master/TinyYOLO-CoreML/TinyYOLO-CoreML/TinyYOLO.mlmodel"; sourceTree = "<group>"; };
 		3B25ED17256F8556002029D4 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		3B25ED1B256F8C47002029D4 /* bg_model_alpha.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = bg_model_alpha.mlmodel; sourceTree = "<group>"; };
+		3B25ED1F256F8CB4002029D4 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BA4CD952560D9DE0048616B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../Desktop/AVCamFilterApplyingFiltersToACaptureStream/AVCamFilter/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3BA4CD9E2560DA0B0048616B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../Desktop/AVCamFilterApplyingFiltersToACaptureStream/AVCamFilter/AppDelegate.swift; sourceTree = "<group>"; };
-		3BA4CDA12560DA4F0048616B /* bg_model_alpha.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = bg_model_alpha.mlmodel; path = ../../../PycharmProjects/pythonProject1/bg_model_alpha.mlmodel; sourceTree = "<group>"; };
 		3BA4CDBA2560F42A0048616B /* PoseDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseDatabase.swift; sourceTree = "<group>"; };
 		3BA4CDBF256113CD0048616B /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		E414FC6C1D5921FD0007C979 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -109,13 +109,13 @@
 			isa = PBXGroup;
 			children = (
 				3B19283725612FBF00B36E20 /* pose.db */,
-				3BA4CDA12560DA4F0048616B /* bg_model_alpha.mlmodel */,
+				3B25ED1B256F8C47002029D4 /* bg_model_alpha.mlmodel */,
 				3B25ED11256CEF6A002029D4 /* TinyYOLO.mlmodel */,
 				3B25ED17256F8556002029D4 /* Helpers.swift */,
 				3B25ED0B256CEE0E002029D4 /* YOLO.swift */,
 				3B25ED0E256CEE52002029D4 /* BoundingBox.swift */,
 				3BA4CDBF256113CD0048616B /* CameraViewController.swift */,
-				3BA4CD9E2560DA0B0048616B /* AppDelegate.swift */,
+				3B25ED1F256F8CB4002029D4 /* AppDelegate.swift */,
 				E46129031CF4C0B8004FE176 /* PreviewMetalView.swift */,
 				E4E160DA1D00979000C83A5A /* FilterRenderer.swift */,
 				E4E160DC1D0099F100C83A5A /* RosyCIRenderer.swift */,
@@ -226,7 +226,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BA4CDA22560DA4F0048616B /* bg_model_alpha.mlmodel in Sources */,
 				3BA4CDBB2560F42A0048616B /* PoseDatabase.swift in Sources */,
 				3B25ED18256F8557002029D4 /* Helpers.swift in Sources */,
 				E4E160DB1D00979000C83A5A /* FilterRenderer.swift in Sources */,
@@ -234,11 +233,12 @@
 				261FA1F91E94641700BE8D47 /* Mixer.metal in Sources */,
 				3B25ED0F256CEE52002029D4 /* BoundingBox.swift in Sources */,
 				2608B7DB1E70937A00A7310F /* RosyMetalRenderer.swift in Sources */,
+				3B25ED1C256F8C47002029D4 /* bg_model_alpha.mlmodel in Sources */,
+				3B25ED20256F8CB4002029D4 /* AppDelegate.swift in Sources */,
 				E4E160DD1D0099F100C83A5A /* RosyCIRenderer.swift in Sources */,
 				E4A8A1421CF6188A006823AB /* PassThrough.metal in Sources */,
 				3B25ED0C256CEE0E002029D4 /* YOLO.swift in Sources */,
 				267ED8501ED7974A00898078 /* minMaxFromBuffer.m in Sources */,
-				3BA4CD9F2560DA0B0048616B /* AppDelegate.swift in Sources */,
 				2672370C1E79BF6E003D2EAA /* RosyEffect.metal in Sources */,
 				3BA4CDC6256115C40048616B /* CameraViewController.swift in Sources */,
 				2633CF1D1E7C65D500FC80E1 /* DepthToGrayscaleConverter.swift in Sources */,
